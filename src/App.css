@@ -1,0 +1,39 @@
+
+
+.square {
+  min-height: 1.5rem;
+  min-width: 1.5rem;
+  padding: 0;
+  vertical-align: top;
+}
+
+.board-row {
+  max-height: 1.5rem;
+  min-width: fit-content;
+  margin: 0;
+}
+
+.container-mega-game-div {
+  width: 500px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+@media(max-width: 500px) {
+  .container-mega-game-div {
+    width: 100%
+  }
+}
+
+
+.game-board {
+  max-width: fit-content;
+  margin: 0 auto;
+  padding-top: 10vh;
+}
+
+
+.game-info {
+  margin: 0 auto;
+  width: fit-content;
+}
